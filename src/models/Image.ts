@@ -1,5 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from 'typeorm';
-import Orphanage from './orphanage';
+import Orphanage from './Orphanage';
 
 @Entity('images')
 export default class Image {
